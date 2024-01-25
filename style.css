@@ -1,0 +1,98 @@
+* {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 0%;
+}
+
+body {
+    height: 919px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#global{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 860px;
+    height: 500px;
+    background-color: #FFC20C;
+    margin-bottom: 20px;
+}
+
+.contenedorDeMensaje{
+    width: 400px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #FFC20C;
+}
+
+.contenedorDeMensaje label {
+    background-color: #FFC20C;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#entrada, #salida {
+    margin-bottom: 20px;
+    background-color: #e4e4e4;
+    color: #07101B;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#copiar {
+    background-color: #FFC20C;
+    width: 860px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#copiar button {
+    width: 180px;
+    height: 30px;
+    margin: 0px 120px 0px 0px;
+
+}
+
+#botones{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.botones {
+    display: flex;
+    width: 400px;
+}
+
+#botones button{
+    width: 180px;
+    height: 40px;
+    background-color: #07101B;
+    color: #FFFFFF;
+    font-size: 16px;
+    border: none;
+}
+
+#botones button:hover{
+    background-color: #FFC20C;
+    color: #FFFFFF;
+    font-size: 18px;
+}

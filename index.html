@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador/Desencriptador</title>
+</head>
+<body>
+    <div id="global">
+        
+        <div id="contenedor">
+            <div class="contenedorDeMensaje" id="izquierda">
+                <label for="entrada">ENTRADA</label>
+                <textarea name="entrada" id="entrada" cols="40" rows="20"></textarea>
+            </div>
+            <div>
+                <div class="contenedorDeMensaje" id="derecha">
+                    <label for="salida">SALIDA</label>
+                    <textarea name="salida" id="salida" cols="40" rows="20"></textarea>
+                </div>
+            </div>
+        </div>
+        <!-- <div id="copiar">
+            <button>Copiar</button>
+        </div> -->
+        <div id="botones">
+            <div class="botones">
+                <button id="encriptar" onclick="capturarTexto('entrada'); codificar(mensaje)">Encriptar</button>
+            </div>
+            <div class="botones">
+                <button id="desencriptar" onclick="capturarTexto('entrada'); decodificar(mensaje)">Desencriptar</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
